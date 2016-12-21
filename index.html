@@ -6,71 +6,72 @@
 	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  	<link rel="icon" type="image/png" href="imagen/favicon.png" />
-
 	  	<!-- favicon -->
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Sofia" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	  	<link href="css/bootstrap.min.css" rel="stylesheet">
 	  	<link href="css/font-awesome.min.css" rel="stylesheet">
+	  	<link href="fonts/entypo/Icon_/fonts" rel="stylesheet">
+	  	<link href="fonts/entypo/Icon_/entypo" rel="stylesheet">
+	  	<link href="fonts/entypo/Icon_/stylesheet" rel="stylesheet">
 	  	<link href="css/main.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="parallax nyc hero grey" data-parallax-speed="2">
 		  	<div class="hero-content">
+		  		<ul id="menu-p">
+		  			<li>
+		  				<a href="#sobre-mi">
+		  					<i class="fa fa-terminal" aria-hidden="true"></i>
+		  					sobre_mí
+		  				</a> 
+		  			</li>
+		  			<li>
+		  				<a href="#herramienta">
+		  					<i class="fa fa-terminal" aria-hidden="true"></i>
+		  					herramientas
+		  				</a> 
+		  			</li>
+			  		<li>
+			  			<a href="#portafolio-p">
+			  				<i class="fa fa-terminal" aria-hidden="true"></i>
+			  				portafolio
+			  			</a> 
+			  		</li>
+			  		<li>
+			  			<a href="#contac">
+			  				<i class="fa fa-terminal" aria-hidden="true"></i>
+			  				contáctame
+			  			</a> 
+			  		</li>		  		
+		  		</ul>
 			    <h1>patriciandrea</h1>
-			    <p><i class="fa fa-terminal" aria-hidden="true"></i>front end developer in progress</p>
-			 </div>
-		</div>
-
-			<div class="cleft-wrapper">
-			  <div class="cleft-left"></div>
-			  <div class="cleft-right"></div>
+			    <p><i class="fa fa-terminal" aria-hidden="true"></i>front end developer</p>
 			</div>
-
-			<div class="spacer">
-			  <div id="about" class="container text-center ">
+		</div>
+		<div class="spacer">
+			  <div id="sobre-mi" class="container text-center ">
 			    <h3><i class="fa fa-terminal" aria-hidden="true"></i>sobre_mi</h3>
 			    <p class="text-about">Inquieta y creativa, entusiasmada por aprender y emprender. Motivada por:
 			    </p>
 			    <div class="descript col-lg-4 col-xs-12 text-center">
 			    	<i class="fa fa-paper-plane" aria-hidden="true"></i>
-			    	<p>avanzar</p>
+				   	<p class="p-avanzar">avanzar</p>
 			     </div>
 			     <div class=" descript col-lg-4 col-xs-12 text-center">
 			    	<i class="fa fa-bicycle" aria-hidden="true"></i>
-			    	<p>recorrer</p>
+			    	<p class="p-bici">recorrer</p>
 			    </div>
 			    <div class="descript col-lg-4 col-xs-12 text-center">
 			    	<i class="fa fa-heart" aria-hidden="true"></i>
-			    	<p>disfrutar</p>
+			    	<p class="p-love">disfrutar</p>
 			    </div>
 			  </div>
 			</div>
-
-			<div class="carrotBox">
-			  <div class="carrot"></div>
-			</div>
 			<div class="parallax madrid grey" data-parallax-speed="0.25">
 			  <div class="parallax-content">
-			    <h1>Herramientas</h1>
-			    <p></p>
+			    <h1 id="herramienta">Herramientas</h1>
 			  </div>
-			</div>
-			<div class="cleft-wrapper">
-			  <div class="cleft-left"></div>
-			  <div class="cleft-right"></div>
-			</div>
-			<!-- <div class="spacer tallSpacer">
-			  <div class="container">
-			    <h3>Placeholder as Content?</h3>
-			    <p>Mauris condimentum porttitor massa molestie elementum. Proin rhoncus, arcu sit amet molestie dignissim, sapien risus mattis arcu, et fringilla ipsum purus vitae neque. Phasellus ultricies dolor libero, at efficitur nulla tincidunt eget. Donec eget mauris nec libero vestibulum porta. Aenean sit amet turpis vehicula, vestibulum nunc sed, dapibus ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lobortis tincidunt iaculis. Aenean et odio eros. Aenean fermentum mi ac maximus sollicitudin. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam posuere, est id varius posuere, dolor nisi interdum ante, eget consequat ante mi non ex. Mauris bibendum ac diam vitae efficitur.</p>
-			  </div>
-			</div> -->
-			<div class="carrotBox">
-			  <div class="carrot"></div>
-			</div>
-			<div class="cleft-wrapper">
-			  <div class="cleft-left"></div>
-			  <div class="cleft-right"></div>
 			</div>
 			<div class="spacer centered">
 				<div class=" skill row">	
@@ -119,7 +120,7 @@
 			</div>
 			<div class="parallax paris grey" data-parallax-speed="0.75">
 			  <div class="parallax-content">
-			    <h1>portafolio</h1>
+			    <h1 id="portafolio-p">portafolio</h1>
 			  </div>
 			</div>
 			<section>
@@ -128,57 +129,56 @@
 				   <article class="entry-content">
 				     <h2>Pastelería Canela</h2>
 				     <p>Sitio web informativo y Responsive</p>
-				     <p><a href="https://patriciadisain.github.io/canela/" class="button">Ir</a></p>
+				     <p><a href="https://patriciadisain.github.io/canela/" class="button" target="blank">Ir</a></p>
 				   </article>
 				</div>
 				<div id="entry-1" class=" grey entry-wrapper">
 				  <article class="entry-content">
 				    <h2>To Do App</h2>
 				    <p>Web app para hacer listas, puedes tachar, eliminar y dar me gusta!</p>
-				    <p><a href="#" class="button">Ir</a></p>
+				    <p><a href="https://patriciadisain.github.io/todoapp/" class="button" target="blank">Ir</a></p>
 				  </article>
 				</div>
 				<div id="entry-3" class="grey entry-wrapper">
 				  <article class="entry-content">
 				    <h2>Lyft</h2>
 				    <p>Web app diseñada para Lyft</p>
-				    <p><a href="#" class="button">ir</a></p>
+				    <p><a href="https://patriciadisain.github.io/lyftapp/" class="button" target="blank">ir</a></p>
 				  </article>
 				</div>
 				<div id="entry-4" class="grey entry-wrapper">
 				  <article class="entry-content">
-				    <h2>Imared</h2>
+				    <h2>Imared</h2>	
 				    <p>Sitio creado cliente real en para práctica profesional</p>
-				    <p><a href="#" class="button">ir</a></p>
+				    <p><a href="http://imared.request.cl/" target="blank" class="button">ir</a></p>
 				  </article>
 				</div>
 			</section>
-			<div class="parallax nyc grey" data-parallax-speed="0.9">
+			<div class="parallax adios grey" data-parallax-speed="0.9">
 			  <div class="parallax-content">
-			    <h1>contáctame</h1>
-			    <p>volvamos_a_conversar</p>
+			    <h1 id="contac">contáctame</h1>
+			    <p>conversemos</p>
 			  </div>
 			</div>
 			<footer>
 				<div class="spacer cont-full">
 				  <div class="container text-center">
 				  	<section>
-					  <ul id='services'>
-					   <!--  <h2>Social</h2> -->
+					  <ul id="services">
 					    <li>
-					     <a href="https://github.com/Patriciadisain"><div class='entypo-github'></div></a>
+					     <a href="https://github.com/Patriciadisain" target="_blank"><div class="entypo-github"></div></a>
 					      <span>GitHub</span>
 					    </li>
 					    <li>
-					      <a href="https://twitter.com/patricia_disain"><div class='entypo-twitter'></div></a>
+					      <a href="https://twitter.com/patricia_disain" target="_blank"><div class="entypo-twitter"></div></a>
 					      <span>Twitter</span>
 					    </li>
 					    <li>
-					    	<a href="https://cl.linkedin.com/in/patriciaperezmkt"><div class='entypo-linkedin'></div></a>
+					    	<a href="https://cl.linkedin.com/in/patriciaperezmkt" target="_blank"><div class="entypo-linkedin"></div></a>
 					      	<span>LinkedIn</span>
 					    </li>
 					    <li>
-					      <a href="mailto:patriciandrea.p@gmail.com"><div class='entypo-mail'></div></a>
+					      <a href="mailto:patriciandrea.p@gmail.com" target="_blank" ><div class="entypo-mail"></div></a>
 					      <span>Escríbeme</span>
 					    </li>
 					  </ul>
